@@ -1,119 +1,118 @@
 html {
-	font-size: 62.5%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-	body {
-		font-size: 1.6rem;
-	}
+body {
+  font-size: 1.6rem;
+}
 
-	*,
-	*::before,
-	*::after {
-		-webkit-box-sizing: inherit;
-		-moz-box-sizing: inherit;
-		box-sizing: inherit;
-		margin: 0;
-		padding: 0;
-	}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.MenuContainer {
+  color: #fff;
+  background-color: #5995da;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
 
-	.MenuContainer {
-		color: #fff;
-		background-color: #5995DA;
-		padding: 20px 0;
-		display: flex;
-		justify-content: center;
-	}
+.Menu {
+  /* border: 1px solid #fff; */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
 
-		.Menu {
-			/* border: 1px solid #fff; */
-			width: 900px;
-			display: flex;
-			justify-content: space-between;
-		}
+.Links {
+  /* border: 1px solid #fff; */
+  display: flex;
+  justify-content: flex-end;
+}
 
-			.Links {
-				/* border: 1px solid #fff; */
-				display: flex;
-				justify-content: flex-end;
-			}
+.Login {
+  margin-left: 20px;
+}
 
-				.Login {
-					margin-left: 20px;
-				}
+.HeaderContainer {
+  color: #5995da;
+  background-color: #d6e9fe;
+  display: flex;
+  justify-content: center;
+}
 
-	.HeaderContainer {
-		color: #5995DA;
-		background-color: #D6E9FE;
-		display: flex;
-		justify-content: center;
-	}
+.Header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-		.Header {
-			width: 900px;
-			height: 300px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-		}
-
-			/* .Subscribe,
+/* .Subscribe,
 			.Social,
 			.Logo {
 				border: 1px solid #5995DA;
 			} */
 
-			.Social,
-			.Subscribe {
-				align-self: flex-end;
-				margin-bottom: 20px;
-			}
+.Social,
+.Subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
 
-	.PhotoGridContainer {
-		display: flex;
-		justify-content: center;
-	}
+.PhotoGridContainer {
+  display: flex;
+  justify-content: center;
+}
 
-		.PhotoGrid {
-			width: 900px;
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-			flex-direction: row;
-			align-items: center;
-		}
+.PhotoGrid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
 
-			.PhotoGridItem {
-				border: 1px solid #fff;
-				width: 300px;
-				height: 300px;
-			}
+.PhotoGridItem {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
 
-			.FirstItem {
-				order: 1;
-			}
+.FirstItem {
+  order: 1;
+}
 
-			.LastItem {
-				order: -1;
-			}
+.LastItem {
+  order: -1;
+}
 
-	.Footer {
-		display: flex;
-		justify-content: space-between;
-	}
+.Footer {
+  display: flex;
+  justify-content: space-between;
+}
 
-		.FooterItem {
-			border: 1px solid #fff;
-			background-color: #D6E9FE;
-			height: 200px;
-			flex: 1;
-		}
+.FooterItem {
+  border: 1px solid #fff;
+  background-color: #d6e9fe;
+  height: 200px;
+  flex: 1;
+}
 
-			.FooterOne,
-			.FooterThree {
-				background-color: #5995DA;
-				flex: initial;
-				width: 300px;
-			}
+.FooterOne,
+.FooterThree {
+  background-color: #5995da;
+  flex: initial;
+  width: 300px;
+}
